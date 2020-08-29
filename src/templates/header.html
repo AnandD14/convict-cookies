@@ -1,0 +1,97 @@
+{% load static %}
+
+<div class="clearfix sticky-top" style="background-color: black;">
+        <div class="float-left">
+            <nav class="navbar navbar-expand-xl navbar-light bg-color" style="background-color: black;">
+                <!--  <a class="navbar-brand" href="#">Navbar</a> -->
+                <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fas fa-bars" style="color:#FF8C00; font-size:28px;"></i>
+                    </span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                About
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Delivery</a>
+                                <!--<div class="dropdown-divider"></div>-->
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cookies</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Fundraising
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Fundraiser Groups</a>
+                                <!--<div class="dropdown-divider"></div>-->
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Labels
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Cartoons & Caricatures</a>
+                                <!--<div class="dropdown-divider"></div>-->
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gift Packaging</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                    <!--  <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form> -->
+
+                </div>
+
+
+            </nav>
+        </div>
+        <div class="float-right">
+            <i class="fas fa-shopping-basket"></i>
+            <button type="button" class="btn btn-outline-warning btn-md" id="amount-btn">$0.0</button>
+        </div>
+</div>
+<div class="container-fluid" style="background-color: black;">
+    <div class="row jumbotron" style="background-color: black;">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <img src="{% static 'images/logo.png' %}">
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="container-fluid">
+                <div class="form-group row">
+                        <div class="col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        </div>
+                        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <button class="btn btn-outline-warning" type="submit">Search</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

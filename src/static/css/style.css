@@ -17,6 +17,10 @@ html, body {
     padding-left: 20px;
 }
 
+.navbar-nav a:hover {
+    border-bottom: 3px solid #ef522b;
+  }
+
 .nav-link {
     font-size: 1.1em !important;
 }
@@ -30,6 +34,12 @@ html, body {
 #amount-btn {
     margin: 1rem;
     color: #ef522b !important;
+    border-color: #ef522b !important;
+}
+
+.search {
+    color: #ef522b !important;
+    border-color: #ef522b !important;
 }
 
 .carousel-inner img {
@@ -50,6 +60,13 @@ html, body {
 
 .welcome hr {
     border-top: 2px solid black;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+.footer hr {
+    border-top: 2px solid #ef522b;
     width: 95%;
     margin-top: .3rem;
     margin-bottom: 1rem;
@@ -132,5 +149,19 @@ html, body {
 }
 
 .bg-color {
+    background-color: black;
+}
+
+.logo {
+    background-image: url('/static/images/logo.png'); 
+}
+
+.search:hover, #amount-btn:hover {
+    background-color: #ef522b !important;
+    color: #000 !important;
+}
+
+.footer-list a:hover{
+    color: #ef522b;
     background-color: black;
 }

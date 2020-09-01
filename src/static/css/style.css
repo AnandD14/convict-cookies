@@ -18,28 +18,29 @@ html, body {
 }
 
 .navbar-nav a:hover {
-    border-bottom: 3px solid #ef522b;
-  }
+    border-bottom: 3px solid #191970;
+}
 
 .nav-link {
     font-size: 1.1em !important;
 }
 
-.fa-shopping-basket {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    color: #ef522b;
-}
-
 #amount-btn {
-    margin: 1rem;
-    color: #ef522b !important;
-    border-color: #ef522b !important;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    color: #191970 !important;
+    border-color: #191970 !important;
+
 }
 
+.contact {
+    color: #fff !important;
+    background-color: #191970 !important;
+}
 .search {
-    color: #ef522b !important;
-    border-color: #ef522b !important;
+    color: #191970!important;
+    border-color: #191970 !important;
 }
 
 .carousel-inner img {
@@ -156,12 +157,28 @@ html, body {
     background-image: url('/static/images/logo.png'); 
 }
 
-.search:hover, #amount-btn:hover {
-    background-color: #ef522b !important;
-    color: #000 !important;
+#amount-btn:hover {
+    background-color: black !important;
+    color: #191970!important;
+}
+ 
+.search:hover {
+    background-color: #191970 !important;
+    color: #fff !important;
 }
 
+.contact:hover {
+    background-color: #00008B !important;
+}
 .footer-list a:hover{
     color: #ef522b;
     background-color: black;
 }
+
+.search:focus, #amount-btn:focus , .contact:focus {
+    box-shadow: none !important;
+}
+.search:active, #amount-btn:active, .contact:active {
+    box-shadow: none !important;
+}
+

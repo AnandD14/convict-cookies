@@ -43,6 +43,15 @@ html, body {
     border-color: #191970 !important;
 }
 
+.learn {
+    color: #fff !important;
+    border-color: #191970 !important;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+
 .carousel-inner img {
     height: 400px;
     width: 100%;
@@ -75,32 +84,39 @@ html, body {
 
 .img-container {
     overflow: hidden;
-    height: 300px;
+    height: 350px;
+    width: 100%;
+    position: relative;
     margin-bottom: 10px;
+    padding-left: 0;
 }
 
 .div-img {
-    height: 300px;
+    height: 100%;
+    width: 100%;
     position: absolute;
-    text-align: left;
     cursor: pointer;
-    margin-bottom: 20px;
     background-position: center;
-    background-size: 170%;
-    overflow: hidden;
+    background-size: cover;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/static/images/20200406_210649.jpg');
-    transition: all 1s ease-in-out;
-    margin-right: auto;
-    margin-left: auto;
+    transition: all 1s;
     background-repeat: no-repeat;
+    padding-left: 0 !important;
 }
 
 .text { 
     color: #FFF;
+    top: 120px;
+    bottom: 20px;
+    left: 10px;
+    position: relative;
 } 
 
 .text-header { 
     color: #FFF;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 .span-text {
@@ -109,11 +125,7 @@ html, body {
 }
 
 .div-img:hover {
-    /*   transform: scale(1.5,1.5); */
-   /*  -webkit-transform: scale(1.5, 1.5);
-    transform: scale(1.5, 1.5); */
-    background-size: 200%
-    
+    transform: scale(1.2);    
 }
 
 .social a {
@@ -162,7 +174,7 @@ html, body {
     color: #191970!important;
 }
  
-.search:hover {
+.search:hover, .learn:hover {
     background-color: #191970 !important;
     color: #fff !important;
 }
@@ -175,10 +187,10 @@ html, body {
     background-color: black;
 }
 
-.search:focus, #amount-btn:focus , .contact:focus {
+.search:focus, #amount-btn:focus , .contact:focus , .learn:focus{
     box-shadow: none !important;
 }
-.search:active, #amount-btn:active, .contact:active {
+.search:active, #amount-btn:active, .contact:active, .learn:focus {
     box-shadow: none !important;
 }
 

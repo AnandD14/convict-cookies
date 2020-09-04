@@ -1,0 +1,25 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<div class="card" style="color:#fff; background-color: #191970; margin-bottom: 20px;">
+    <div class="card-body"> 
+        <h1> CONTACT </h1>
+    </div>
+</div>
+
+<div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3" class="container-fluid">
+    <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+    <script>(function () {
+            var setting = { "height": 515, "width": 1920, "zoom": 18, "queryString": "83 Federal Street, North Hobart TAS 7000, Australia", "place_id": "ChIJedZprqB1bqoRz3KGN07Bo1A", "satellite": false, "centerCoord": [-42.87161296474221, 147.31468120000002], "cid": "0x50a3c14e378672cf", "lang": "en", "cityUrl": "/australia/hobart-30306", "cityAnchorText": "Map of Hobart, Tasmania, Australia", "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3", "embed_id": "260167" };
+            var d = document;
+            var s = d.createElement('script');
+            s.src = 'https://1map.com/js/script-for-user.js?embed_id=260167';
+            s.async = true;
+            s.onload = function (e) {
+                window.OneMap.initMap(setting)
+            };
+            var to = d.getElementsByTagName('script')[0];
+            to.parentNode.insertBefore(s, to);
+        })();</script><a href="https://1map.com/map-embed">1 Map</a>
+</div>
+{% endblock %}

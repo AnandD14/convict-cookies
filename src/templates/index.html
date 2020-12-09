@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>The Convict Cookies</title>
+  <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'fontawesome/css/all.min.css' %}" />
+  <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" />
+  <script src="{% static 'jquery-3.5.1.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</head>
+
+<body>
+  {% include 'header.html' %}
+
+  {% block content %}
+  
+  {% endblock %}
+
+  {% include 'footer.html' %}
+</body>
+
+</html>

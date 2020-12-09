@@ -21,9 +21,5 @@ from pages import views
 urlpatterns = [
    path('', views.home_view, name='home'),
    path('admin/', admin.site.urls),
-<<<<<<< HEAD
-=======
-   path('fontawesome/', include("django_static_fontawesome.urls")),
->>>>>>> 8e84c00699151a5474dccdb482380b03d4ea421e
    path('contact/', views.contact_view, name='contact' )
 ]

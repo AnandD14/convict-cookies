@@ -2,14 +2,19 @@
 # You cannot run it directly.
 # Created by Davide Di Blasi <davidedb@gmail.com>.
 
+<<<<<<< HEAD
 set newline='\
 '
 
 alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PATH:q" && unset _OLD_VIRTUAL_PATH; rehash; test $?_OLD_VIRTUAL_PROMPT != 0 && set prompt="$_OLD_VIRTUAL_PROMPT:q" && unset _OLD_VIRTUAL_PROMPT; unsetenv VIRTUAL_ENV; test "\!:*" != "nondestructive" && unalias deactivate && unalias pydoc'
+=======
+alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PATH" && unset _OLD_VIRTUAL_PATH; rehash; test $?_OLD_VIRTUAL_PROMPT != 0 && set prompt="$_OLD_VIRTUAL_PROMPT" && unset _OLD_VIRTUAL_PROMPT; unsetenv VIRTUAL_ENV; test "\!:*" != "nondestructive" && unalias deactivate && unalias pydoc'
+>>>>>>> 8e84c00699151a5474dccdb482380b03d4ea421e
 
 # Unset irrelevant variables.
 deactivate nondestructive
 
+<<<<<<< HEAD
 setenv VIRTUAL_ENV '/home/danand/convict-cookies-master'
 
 set _OLD_VIRTUAL_PATH="$PATH:q"
@@ -49,7 +54,35 @@ endif
 
 unset env_name
 unset do_prompt
+=======
+setenv VIRTUAL_ENV "/home/anand/Dev/convict_city_rollers"
+
+set _OLD_VIRTUAL_PATH="$PATH"
+setenv PATH "$VIRTUAL_ENV/bin:$PATH"
+
+
+
+if ("" != "") then
+    set env_name = ""
+else
+    set env_name = `basename "$VIRTUAL_ENV"`
+endif
+
+# Could be in a non-interactive environment,
+# in which case, $prompt is undefined and we wouldn't
+# care about the prompt anyway.
+if ( $?prompt ) then
+    set _OLD_VIRTUAL_PROMPT="$prompt"
+    set prompt = "[$env_name] $prompt"
+endif
+
+unset env_name
+>>>>>>> 8e84c00699151a5474dccdb482380b03d4ea421e
 
 alias pydoc python -m pydoc
 
 rehash
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8e84c00699151a5474dccdb482380b03d4ea421e

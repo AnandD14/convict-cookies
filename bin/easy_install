@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/home/danand/convict-cookies-master/bin/python
 # -*- coding: utf-8 -*-
 import re
@@ -5,4 +6,16 @@ import sys
 from setuptools.command.easy_install import main
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+=======
+#!/home/anand/Dev/convict_city_rollers/bin/python
+
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from setuptools.command.easy_install import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+>>>>>>> 8e84c00699151a5474dccdb482380b03d4ea421e
     sys.exit(main())

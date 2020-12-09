@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/home/danand/convict-cookies-master/bin/python
+=======
+#!/home/anand/Dev/convict_city_rollers/bin/python
+>>>>>>> 8e84c00699151a5474dccdb482380b03d4ea421e
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 
